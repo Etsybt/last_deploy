@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #0073e6;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+header nav ul li a:hover, .btn {
+    background: #005bb5;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#intro {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#features, #about {
+    padding: 50px;
+    background-color: rgba(54, 42, 42, 0.128);
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.team ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.team ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+h1, h2, h3 {
+    color: #0073e6;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

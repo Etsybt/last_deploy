@@ -1,2 +1,1 @@
-# last_deploy
-deploy
+landing page for my project
